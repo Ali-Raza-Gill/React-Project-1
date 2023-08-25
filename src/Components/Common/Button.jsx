@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Button(color,text) {
+export default function Button() {
+//   // const {color, text}=props
   return (
-    <button className='btn btn-{color} '>{}text</button>
+    <button className='btn btn-{color} border border-dark' ></button>
   )
 }
