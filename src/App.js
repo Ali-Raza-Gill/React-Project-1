@@ -5,14 +5,17 @@ import Header from './Components/Common/Header';
 import Herosection from './pages/Herosection/Herosection';
 import About from './pages/About-section/About';
 import Livesection from './pages/Livesection/Livesection';
+import Choisesection from './pages/Choise-section/Choisesection';
 function App() {
   return (
     <>
     {/* <TopHeader/> */}
     <Header/>
     <Herosection/>
-    <Livesection/>
+    <Livesection/> 
     <About/>
+    <Choisesection/>
+    <hr/>
     </>
   );
 }
