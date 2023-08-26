@@ -1,4 +1,7 @@
 import React from 'react'
+import 'react-icons/fa'
+import 'react-icons/bs'
+import { BsFillPersonFill } from 'react-icons/bs'
 
 
 
@@ -7,7 +10,7 @@ export default function Header() {
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top border-bottom border-dark ">
-  <a className="navbar-brand mb-2 mx-5 " href="#">Navbar</a>
+  <a className="navbar-brand mb-2 mx-5 " href="#"><BsFillPersonFill style={{fontSize:"35px",marginTop:"-8px"}} className='text-center'/>Startup</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

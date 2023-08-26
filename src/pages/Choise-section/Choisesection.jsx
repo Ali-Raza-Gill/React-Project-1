@@ -27,10 +27,10 @@ export default function Choisesection() {
           </div>
           <div className="col">
             <FaAward style={{color:"white",backgroundColor:"279EFF",fontSize:"30px",padding:"7px"}}/>
-            <h5 className='mt-3'>Proffesional Staff</h5>
+            <h5 className='mt-2'>Proffesional Staff</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate error unde. Non accusantium odio adipisci saepe magnam excepturi quidem.</p>
             <FaPhone style={{color:"white",backgroundColor:"279EFF",fontSize:"30px",padding:"7px"}}/>
-            <h5 className='mt-3'>Best In Industry</h5>
+            <h5 className='mt-2'>Best In Industry</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate error unde. Non accusantium odio adipisci saepe magnam excepturi quidem.</p>
           </div>
           

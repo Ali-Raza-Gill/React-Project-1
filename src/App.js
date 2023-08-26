@@ -6,6 +6,9 @@ import Herosection from './pages/Herosection/Herosection';
 import About from './pages/About-section/About';
 import Livesection from './pages/Livesection/Livesection';
 import Choisesection from './pages/Choise-section/Choisesection';
+import Services from './pages/Services-section/Services';
+// import Pricingcard from './Components/Common/Pricingcard';
+import Pricingsection from './pages/Pricing-section/Pricingsection';
 function App() {
   return (
     <>
@@ -15,6 +18,8 @@ function App() {
     <Livesection/> 
     <About/>
     <Choisesection/>
+    <Services/>
+    <Pricingsection/>
     <hr/>
     </>
   );
