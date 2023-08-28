@@ -1,39 +1,39 @@
 import React from 'react'
-import"react-icons/fa"
+import "react-icons/fa"
 // import { FaCheck } from 'react-icons/fa'
 import Button from './Button';
 
 export default function Pricingcard(props) {
-    const {plan,bsize,price,course1,course2,course3,course4,icon1,icon2,icon3,icon4}=props
+  const { plan, bsize, price, course1, course2, course3, course4, icon1, icon2, icon3, icon4 } = props
   return (
-    
-   
-   <>
-<div className="container-fluid" style={{width:"350px"}}>
-    <div className="row">
-        <div className="col">
-            <div className="card  rounded-0 border-0" style={{backgroundColor:"aliceblue"}} >
-                <div className="card-body">
-                    <h4 style={{color:"skyblue"}}>{plan}</h4>
-                    <p>{bsize}</p>
-                    <hr />
-                    <h1><span style={{fontSize:"15px"}}>$</span>{price}<span style={{fontSize:"15px"}}>/month</span></h1>
-                    <p>{course1} {icon1}</p>
-                    <p>{course2} {icon2}</p>
-                    <p>{course3} {icon3}</p>
-                    <p>{course4} {icon4}</p>
-                    <Button  text="Oder Now" style={{paddingTop:"15px",backgroundColor:"blue"}}/>
-                </div>
+
+    // aliceblue color
+    <>
+      <div className="container-fluid gx-0 gy-0" style={{ width: "350px" }}>
+        <div className="row ">
+          <div className="col gx-2 gy-0">
+            <div className="card  rounded-0 border-0" style={{ backgroundColor: "#31D2F2" }} >
+              <div className="card-body">
+                <h4 style={{ color: "skyblue" }}>{plan}</h4>
+                <p>{bsize}</p>
+                <hr />
+                <h1><span style={{ fontSize: "15px" }}>$</span>{price}<span style={{ fontSize: "15px", fontFamily: 'serif' }}>/Month</span></h1>
+                <p>{course1} {icon1}</p>
+                <p>{course2} {icon2}</p>
+                <p>{course3} {icon3}</p>
+                <p>{course4} {icon4}</p>
+                <Button text="Oder Now" style={{ paddingTop: "15px", backgroundColor: "blue" }} />
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 
 
 
 
 
-{/* 
+      {/* 
     <div className="container">
         <div className="row">
             <div className="col">

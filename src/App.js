@@ -9,6 +9,7 @@ import Choisesection from './pages/Choise-section/Choisesection';
 import Services from './pages/Services-section/Services';
 // import Pricingcard from './Components/Common/Pricingcard';
 import Pricingsection from './pages/Pricing-section/Pricingsection';
+import Review from './pages/Reviews-section/Review';
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
     <Choisesection/>
     <Services/>
     <Pricingsection/>
+    <Review/>
     <hr/>
     </>
   );
