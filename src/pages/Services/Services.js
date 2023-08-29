@@ -26,10 +26,7 @@ export default function Services() {
                     <Card icon={<FaAppStore style={{ rotate: "-50deg" }} />} texth3="App Development" textp="I have Technical Experience of 4 years in App Developmentfield" />
                     <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
                     <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
-                    <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
-                    <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
-                    <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
-                </div>
+                    
             </div>
         </div>
     )
