@@ -20,7 +20,7 @@ export default function Pricingsection() {
             {/* plan,bsize,price,course1,course2,course3,course4,icon1,icon2,icon3,icon4 */}
 
             <Pricingcard plan="Basic Plan"  bsize="For Small Size Businiss" price="49.00" course1="HTML5 & CSS3" icon1={<FaCheck style={{ color: "lightblue", marginLeft: "140px" }} />} course2="Bootstrap v5" icon2={<FaCheck style={{ color: "lightblue", marginLeft: "160px" }} />} course3="Responsive Layout" icon3={<CloseIcon style={{ color: "red", marginLeft: "115px" }} />} course4="Cross-browser Support" icon4={<CloseIcon style={{ color: "red", marginLeft: "85px" }} />} />
-            <Pricingcard
+            <Pricingcard style={{zIndex:"2"}}
               plan="Standard Plan" bgColor="blue" bsize="For Medium Size Businiss" price="99.00" course1="HTML5 & CSS3" icon1={<FaCheck style={{ color: "lightblue", marginLeft: "140px" }} />} course2="Bootstrap v5" icon2={<FaCheck style={{ color: "lightblue", marginLeft: "160px" }} />} course3="Responsive Layout" icon3={<FaCheck style={{ color: "lightblue", marginLeft: "120px" }} />} course4="Cross-browser Support" icon4={<CloseIcon style={{ color: "red", marginLeft: "85px" }} />}
             />
             <Pricingcard

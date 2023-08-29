@@ -4,15 +4,15 @@ import "react-icons/fa"
 import { FaCheck, FaPhone } from 'react-icons/fa'
 import Button from '../../Components/Common/Button'
 // import contact from "../../Assets/Images/contact.jpg"
-import contact from "../../Assets/Images/teammeeting4.jpg"
+// import contact from "../../Assets/Images/teammeeting4.jpg"
+import cat from '../../assets/catonpiller.avif'
 
 export default function About() {
   return (
     <>
-    <div className="container mt-5 pt-5">
+    <div className="container" style={{marginTop:"160px"}}>
       <div className="row">
-        <div className="col-1"></div>
-        <div className="col-6">
+        <div className="col-12 col-md-6 ">
           <h6 className='text-primary '>ABOUT US</h6>
           <h3 className='mb-4'>The Best IT Solutions With 10 Years of <br /> Experience</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odio molestiae  animi incidunt magnam expedita nemo! Ab, nesciunt exAM in distinctio sequi totam  soluta reiciendis pariatur deleniti, deserunt molestiae sint mollitia porro non, quisaas  recusanasdae facere.</p>
@@ -32,16 +32,16 @@ export default function About() {
               </div>
           </div>
           <Button  text="Request a Quote" style={{paddingTop:"15px",backgroundColor:"279EFF"}}/>
-
-
         </div>
 
-        <div className="col-5 ">
-            <img src={contact} alt="" style={{height:"400px",width:"400px"}}/>
+        <div className="col-12 col-md-6 mt-2 ">
+            <img src={cat} alt="" />
         </div>
-        <div className="col-1"></div>
       </div>
     </div>
     </>
   )
 }
+
+
+

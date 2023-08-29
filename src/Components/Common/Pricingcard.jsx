@@ -9,10 +9,10 @@ export default function Pricingcard(props) {
 
     // aliceblue color
     <>
-      <div className="container-fluid gx-0 gy-0" style={{ width: "350px" }}>
+      <div className="container-fluid gx-0 gy-0" style={{ width: "350px"}}>
         <div className="row ">
           <div className="col gx-2 gy-0">
-            <div className="card  rounded-0 border-0" style={{ backgroundColor: "#31D2F2" }} >
+            <div className="card  rounded-0 border-0 shadow" style={{ backgroundColor: "aliceblue" }} >
               <div className="card-body">
                 <h4 style={{ color: "skyblue" }}>{plan}</h4>
                 <p>{bsize}</p>

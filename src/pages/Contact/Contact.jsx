@@ -6,8 +6,8 @@ import Button from '../../Components/Common/Button';
 
 export default function Review() {
     return (
-        <div className="contianer mt-5 pt-5">
-            <div className="row">
+        <div className="contianer mt-5 pt-5 mb-5">
+            <div className="row mt-5 pt-5">
                 <div className="col-5" style={{marginRight:"40px", marginLeft:"230px"}}>
                     <h6 style={{ color: "#31D2F2" }}>REQUEST A QUOTE</h6>
                     <h1>Need a Free Quote? Please Feel Free to Contact Us</h1>
@@ -27,7 +27,7 @@ export default function Review() {
 
                 </div>
 
-                <div className="col border" style={{height:"370px",marginRight:"100px",maxWidth:"350px", paddingTop:"40px",backgroundColor:"skyblue"}}>
+                <div className="col border" style={{height:"370px",marginRight:"10px",maxWidth:"400px", paddingTop:"40px",backgroundColor:"skyblue"}}>
                     <form>
                     <div class="form-group" style={{marginBottom:"15px"}}>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" />&ensp;
@@ -43,11 +43,11 @@ export default function Review() {
                         </select>
                     </div>
                     
-                    <div class="form-group mb-2">
+                    <div class="form-group mb-3 ">
                         <label for="exampleFormControlTextarea1"></label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message'></textarea>
                     </div>
-                    <Button text="Request a Quote" />
+                    <Button text="Request a Quote"  />
                 </form>
                 </div>
             </div>

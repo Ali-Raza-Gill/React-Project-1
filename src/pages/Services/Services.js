@@ -4,7 +4,6 @@ import 'react-icons/fa'
 import { FaAppStore, FaCode, FaDatabase, FaSearch, FaShieldAlt } from 'react-icons/fa'
 // import {  FaShieldAlt } from 'react-icons/fa'
 
-
 export default function Services() {
     return (
         /* icon, texth3, textp, bgcolor  => props */
@@ -15,9 +14,6 @@ export default function Services() {
                     <h1>Custom IT Solutions For Your <br /> Successful Businness</h1>
                 </div>
             </div>
-
-
-            
             <div className="row">
                 <div className="col d-flex justify-content-center">
                     <Card icon={<FaShieldAlt style={{ rotate: "-50deg" }} />} texth3="Cyber Security" textp="I have Technical Experience of 4 years in cyber security field" />
@@ -32,10 +28,6 @@ export default function Services() {
                     <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
                 </div>
             </div>
-            
         </div>
-
-
-
     )
 }
