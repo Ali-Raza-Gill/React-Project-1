@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../../Components/Common/Card'
 import 'react-icons/fa'
 import { FaAppStore, FaCode, FaDatabase, FaSearch, FaShieldAlt } from 'react-icons/fa'
-// import {  FaShieldAlt } from 'react-icons/fa'
+
 
 export default function Services() {
     return (
@@ -28,6 +28,7 @@ export default function Services() {
                     <Card icon={<FaSearch style={{ rotate: "-50deg" }} />} texth3="SEO Optimaization" textp="I have Technical Experience of 4 years in SEO Optimaization field" />
                     
             </div>
+        </div>
         </div>
     )
 }
