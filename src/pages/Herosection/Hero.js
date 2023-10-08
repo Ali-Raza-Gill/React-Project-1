@@ -4,7 +4,8 @@ import img2 from '../../assets/slide2.jpg'
 import img3 from '../../assets/slide3.jpg'
 
 export default function Herosection() {
-  return ( <div className="container-fluid" >
+  return ( 
+  <div className="container-fluid" >
     <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
